@@ -1,0 +1,41 @@
+{
+    "LOGIN": {
+       "LOGIN_EMAIL": "Email",
+       "LOGIN_PASSWORD": "Password",
+       "LOGIN_LOGIN": "Login",
+       "LOGIN_SIGN_UP": "Sign Up"
+    },
+    "SIGNUP": {
+        "SIGNUP_NAME": "Username",
+        "SIGNUP_EMAIL": "Email",
+        "SIGNUP_PASSWORD": "Password",
+        "SIGNUP_SIGN_UP": "Sign Up",
+        "SIGNUP_BACK_LOGIN": "Back to Login"
+     },
+     "TABS":{
+         "TABS_POSTS": "Posts",
+         "TABS_PROFILE": "Profile"
+     },
+     "POST":{
+         "POST_NEW":"Add post"
+     },
+     "POST_CREATE":{
+        "POST_CREATE_NAME":"Add new post",
+        "POST_CREATE_TITLE":"Title",
+        "POST_CREATE_IMAGE":"Image",
+        "POST_CREATE_CONTENT":"Content",
+        "POST_CREATE_CREATE":"Create",
+        "POST_CREATE_CANCEL":"Cancel",
+        "POST_CREATE_ALERT_EMPTY":"Title and Content Fields are Required"
+    },
+    "POST_COMMENT":{
+        "POST_COMMENT_COMMENT": "Comment",
+        "POST_COMMENT_YOUR_COMMENT": "Your comment:",
+        "POST_COMMENT_ALERT_EMPTY": "First write a comment"
+    },
+    "PROFILE":{
+        "PROFILE_TITLE":"Profile"
+    }
+
+
+}

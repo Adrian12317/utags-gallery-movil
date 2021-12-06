@@ -1,0 +1,39 @@
+{
+    "LOGIN": {
+        "LOGIN_EMAIL": "Correo",
+        "LOGIN_PASSWORD": "Contraseña",
+        "LOGIN_LOGIN": "Iniciar Sesión",
+        "LOGIN_SIGN_UP": "Registrarse"
+     },
+     "SIGNUP": {
+        "SIGNUP_NAME": "Nombre de usuario",
+        "SIGNUP_EMAIL": "Correo",
+        "SIGNUP_PASSWORD": "Contraseña",
+        "SIGNUP_SIGN_UP": "Registrarse",
+        "SIGNUP_BACK_LOGIN": "Volver a login"
+     },
+     "TABS":{
+        "TABS_POSTS": "Publicaciones",
+        "TABS_PROFILE": "Perfil"
+    },
+    "POST":{
+        "POST_NEW":"Añadir publicación"
+    },
+    "POST_CREATE":{
+        "POST_CREATE_NAME":"Añadir nueva publicación",
+        "POST_CREATE_TITLE":"Titulo",
+        "POST_CREATE_IMAGE":"Imagen",
+        "POST_CREATE_CONTENT":"Contenido",
+        "POST_CREATE_CREATE":"Crear",
+        "POST_CREATE_CANCEL":"Cancelar",
+        "POST_CREATE_ALERT_EMPTY":"El Campo Titulo y Contenido son Requeridos"
+    },
+    "POST_COMMENT":{
+        "POST_COMMENT_COMMENT": "Comentar",
+        "POST_COMMENT_YOUR_COMMENT": "Tú comentario:",
+        "POST_COMMENT_ALERT_EMPTY": "Primero escribe un comentario"
+    },
+    "PROFILE":{
+        "PROFILE_TITLE":"Perfil"
+    }
+}
