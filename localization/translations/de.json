@@ -1,0 +1,41 @@
+{
+    "LOGIN": {
+        "LOGIN_EMAIL": "E-Mail",
+        "LOGIN_PASSWORD": "Passwort",
+        "LOGIN_LOGIN": "Anmeldung",
+        "LOGIN_SIGN_UP": "Sich Anmelden"
+     },
+     "SIGNUP": {
+        "SIGNUP_NAME": "Nutzername",
+        "SIGNUP_EMAIL": "E-Mail",
+        "SIGNUP_PASSWORD": "Passwort",
+        "SIGNUP_SIGN_UP": "Sich Anmelden",
+        "SIGNUP_BACK_LOGIN": "zurück zur Anmeldung"
+     },
+     "TABS":{
+        "TABS_POSTS": "Beiträge",
+        "TABS_PROFILE": "Steckbrief"
+    },
+    "POST":{
+        "POST_NEW":"Beitrag hinzufügen"
+    },
+    "POST_CREATE":{
+        "POST_CREATE_NAME":"Neuen Beitrag hinzufügen",
+        "POST_CREATE_TITLE":"Bezeichnung",
+        "POST_CREATE_IMAGE":"Abbildung",
+        "POST_CREATE_CONTENT":"Inhalt",
+        "POST_CREATE_CREATE":"Erstellen",
+        "POST_CREATE_CANCEL":"Abbrechen",
+        "POST_CREATE_ALERT_EMPTY":"Titel und Inhalt sind erforderlich"
+    },
+    "POST_COMMENT":{
+        "POST_COMMENT_COMMENT": "Kommentar",
+        "POST_COMMENT_YOUR_COMMENT": "Ihr Kommentar:",
+        "POST_COMMENT_ALERT_EMPTY": "Schreiben Sie zuerst einen Kommentar",
+        "POST_COMMENT_DELETE_TITLE": "Beitrag löschen",
+        "POST_COMMENT_DELETE": "Willst du sie wirklich löschen?"
+    },
+    "PROFILE":{
+        "PROFILE_TITLE":"Steckbrief"
+    }
+}

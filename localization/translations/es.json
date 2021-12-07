@@ -31,7 +31,9 @@
     "POST_COMMENT":{
         "POST_COMMENT_COMMENT": "Comentar",
         "POST_COMMENT_YOUR_COMMENT": "Tú comentario:",
-        "POST_COMMENT_ALERT_EMPTY": "Primero escribe un comentario"
+        "POST_COMMENT_ALERT_EMPTY": "Primero escribe un comentario",
+        "POST_COMMENT_DELETE_TITLE": "Borrar Post",
+        "POST_COMMENT_DELETE": "¿En realidad quieres borrar el post?"
     },
     "PROFILE":{
         "PROFILE_TITLE":"Perfil"

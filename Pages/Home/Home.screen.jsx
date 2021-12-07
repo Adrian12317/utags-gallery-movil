@@ -31,7 +31,7 @@ export default function HomePage() {
           }
           return <Ionicons name={iconName} size={size} color={color}/>;
         },
-        tabBarActiveTintColor: "#cf8538",
+        tabBarActiveTintColor: "#2A8D45",
         tabBarInactiveTintColor :"grey",
       })}
       >

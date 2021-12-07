@@ -1,6 +1,5 @@
 import React, { useCallback, useState } from 'react'
 import { View,Text,StyleSheet,RefreshControl } from 'react-native';
-import { database,auth } from '../../firebase';
 import { useEffect } from 'react';
 import { Card, SpeedDial , Button } from 'react-native-elements'
 import {
@@ -80,7 +79,7 @@ export default function Posts() {
          }
 
          {isComment?
-          <CommentPost setIsComment={setIsComment} post_id={postId}/>
+          <CommentPost setIsComment={setIsComment} post_id={postId} getItems={getItems}/>
          :
          <></>
          }

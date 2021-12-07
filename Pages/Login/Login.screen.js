@@ -1,9 +1,6 @@
 import { useNavigation } from "@react-navigation/core";
 import React, { useEffect, useState } from "react";
 import {
-  StyleSheet,
-} from "react-native";
-import {
   StyledContainer,
   InputContainer,
   ImageLogo,
@@ -82,13 +79,3 @@ const LoginPage = () => {
   );
 };
 export default LoginPage;
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    alignItems: "center",
-    justifyContent: "center",
-    backgroundColor: "#cf8538",
-  },
-
-});

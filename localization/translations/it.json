@@ -1,0 +1,41 @@
+{
+    "LOGIN": {
+        "LOGIN_EMAIL": "Email",
+        "LOGIN_PASSWORD": "Password",
+        "LOGIN_LOGIN": "Accesso",
+        "LOGIN_SIGN_UP": "Registra"
+     },
+     "SIGNUP": {
+        "SIGNUP_NAME": "Nome utente",
+        "SIGNUP_EMAIL": "Email",
+        "SIGNUP_PASSWORD": "Password",
+        "SIGNUP_SIGN_UP": "Registra",
+        "SIGNUP_BACK_LOGIN": "Torna al login"
+     },
+     "TABS":{
+        "TABS_POSTS": "Pubblicazioni",
+        "TABS_PROFILE": "Profilo"
+    },
+    "POST":{
+        "POST_NEW":"Aggiungere la pubblicazione"
+    },
+    "POST_CREATE":{
+        "POST_CREATE_NAME":"Aggiungi una nuova pubblicazione",
+        "POST_CREATE_TITLE":"Titolo",
+        "POST_CREATE_IMAGE":"Immagine",
+        "POST_CREATE_CONTENT":"Contenuto",
+        "POST_CREATE_CREATE":"Creare",
+        "POST_CREATE_CANCEL":"Cancella",
+        "POST_CREATE_ALERT_EMPTY":"I campi Titolo e Contenuto sono obbligatori."
+    },
+    "POST_COMMENT":{
+        "POST_COMMENT_COMMENT": "Commento",
+        "POST_COMMENT_YOUR_COMMENT": "Il tuo commento:",
+        "POST_COMMENT_ALERT_EMPTY": "Prima scrivi un commento",
+        "POST_COMMENT_DELETE_TITLE": "Cancellare il post",
+        "POST_COMMENT_DELETE": "Vuoi davvero cancellarlo? "
+    },
+    "PROFILE":{
+        "PROFILE_TITLE":"Profilo"
+    }
+}

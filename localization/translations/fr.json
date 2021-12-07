@@ -1,0 +1,41 @@
+{
+    "LOGIN": {
+        "LOGIN_EMAIL": "Courriel ",
+        "LOGIN_PASSWORD": "Mot de passe",
+        "LOGIN_LOGIN": "Connexion",
+        "LOGIN_SIGN_UP": "Registre"
+     },
+     "SIGNUP": {
+        "SIGNUP_NAME": "Nom de l'utilisateur",
+        "SIGNUP_EMAIL": "Courriel",
+        "SIGNUP_PASSWORD": "Mot de passe",
+        "SIGNUP_SIGN_UP": "Registre",
+        "SIGNUP_BACK_LOGIN": "Retour à la page d'accueil"
+     },
+     "TABS":{
+        "TABS_POSTS": "Publications",
+        "TABS_PROFILE": "Profil"
+    },
+    "POST":{
+        "POST_NEW":"Ajouter une publication"
+    },
+    "POST_CREATE":{
+        "POST_CREATE_NAME":"Ajouter une nouvelle publication",
+        "POST_CREATE_TITLE":"Titre",
+        "POST_CREATE_IMAGE":"Image",
+        "POST_CREATE_CONTENT":"Contenu",
+        "POST_CREATE_CREATE":"Créer",
+        "POST_CREATE_CANCEL":"Annuler",
+        "POST_CREATE_ALERT_EMPTY":"Les champs Titre et Contenu sont obligatoires."
+    },
+    "POST_COMMENT":{
+        "POST_COMMENT_COMMENT": "Commentaire",
+        "POST_COMMENT_YOUR_COMMENT": "Votre commentaire :",
+        "POST_COMMENT_ALERT_EMPTY": "Commencez par écrire un commentaire",
+        "POST_COMMENT_DELETE_TITLE": "Supprimer le poste",
+        "POST_COMMENT_DELETE": "Vous voulez vraiment le supprimer?"
+    },
+    "PROFILE":{
+        "PROFILE_TITLE":"Profil"
+    }
+}

@@ -3,14 +3,14 @@ import styled from 'styled-components/native';
 export const StyledContainer = styled.View`
     flex: 1;
     align-items: center;
-    background: #cf8538;
+    background: #2A8D45;
     justify-content: center;
 `;
 
 export const StyledContainerStart = styled.View`
     flex: 1;
     align-items: flex-start;
-    background: #cf8538;
+    background: #2A8D45;
     justify-content: flex-start;
 `;
 
@@ -55,7 +55,7 @@ export const StyledButtonText = styled.Text`
 `;
 
 export const StyledScrollView = styled.ScrollView`
-    background: #cf8538;
+    background: #2A8D45;
     margin-bottom: 20;
     margin-left: 40;
     margin-top: 40;

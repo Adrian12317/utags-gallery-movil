@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { Text,StyleSheet,ActivityIndicator, View,ScrollView } from 'react-native';
+import { Text,StyleSheet,Alert , View,ScrollView } from 'react-native';
 import { Card , Button } from 'react-native-elements'
 import {
   StyledContainerStart,
@@ -10,7 +10,7 @@ import axios from 'axios';
 import ImagePreview from 'react-native-image-preview';
 import i18n from "../../localization/i18n"
 
-export default function CommentPost({setIsComment,post_id}) {
+export default function CommentPost({setIsComment,post_id,getItems}) {
     const [isLoading,setIsLoading] = useState(false)
     const [post,setPost] = useState({})
     const [myComment,setMyComment] = useState()
@@ -84,6 +84,37 @@ export default function CommentPost({setIsComment,post_id}) {
     setIsVisible(true);
   }
 
+
+
+  const handleDelete = (post_id) =>
+  Alert.alert(i18n.t("POST_COMMENT").POST_COMMENT_DELETE_TITLE, i18n.t("POST_COMMENT").POST_COMMENT_DELETE, [
+    {
+      text: 'Cancel',
+      onPress: () => console.log('Cancel Pressed'),
+      style: 'cancel',
+    },
+    { text: 'OK', onPress: () => {
+      console.log('OK Pressed')
+
+      axios.put('https://api-utagsgallery-codes.herokuapp.com/posts/delete/'+post_id)
+        .then(function ({data}) {
+          // handle success
+          setIsComment(false);
+          getItems()
+
+        })
+        .catch(function (error) {
+          // handle error
+          console.log(error);
+            return alert("We have an error");
+          
+        })
+      
+    } },
+  ]);
+
+  
+
     return(
         <StyledContainerStart>
           <ImagePreview visible={isVisible} source={{uri: previewUri}} close={()=>{setIsVisible(false)}} />
@@ -107,11 +138,14 @@ export default function CommentPost({setIsComment,post_id}) {
             onChangeText={setMyComment}
             ></StyledInputCreate>
             <Button
-                icon={<Icon style={styles.buttonLike} name='thumbs-up' />}
-                buttonStyle={{width:100}}
+                icon={<Icon style={styles.buttonLike} name='comments' />}
+                buttonStyle={{width:120}}
                 title={i18n.t("POST_COMMENT").POST_COMMENT_COMMENT}
                 onPress={()=>{handleComment()}}
             />
+            <View style={{alignItems:"flex-end"}}>
+             <Icon style={{fontSize:18,color:"red"}} name='trash' onPress={()=>handleDelete(post.post_id)} />
+             </View>
             <Card.Divider style={{marginTop:10}}/>
             <ScrollView>
             {comments?.map((comment,i)=>(

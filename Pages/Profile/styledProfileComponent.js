@@ -4,7 +4,7 @@ export const StyledContainer = styled.View`
     flex: 1;
     align-items: center;
     justify-content: center;
-    background: #cf8538;
+    background: #2A8D45;
 `;
 export const StyledView = styled.View`
     align-items: center;
